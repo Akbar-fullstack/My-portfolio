@@ -8,102 +8,196 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <title>Акбар | Frontend Developer</title>
 </head>
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white font-sans">
-
-  <div class="fixed inset-0 overflow-hidden pointer-events-none">
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
+<body>
+  <div class="page-background">
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+    <div class="circle circle-3"></div>
   </div>
 
-  <div class="min-h-screen flex items-center justify-center p-4 relative z-10" id="div">
-    <div class="max-w-2xl w-full">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand">Акбар</a>
+      <nav class="site-nav">
+        <a href="#about">Обо мне</a>
+        <a href="#skills">Навыки</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
 
-      <div class="bg-gray-800/50 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-gray-700/50 profile-card">
-        
-       
-        <div class="text-center mb-8 animate-fade-in">
-          <div class="mb-4">
-            <span class="text-6xl inline-block animate-bounce-slow">👋</span>
+  <main class="page-content">
+    <section id="hero" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-intro">
+          <span class="eyebrow">Frontend Developer</span>
+          <h1>Привет, я Акбар. Я делаю веб-сайты, которые выглядят красиво и работают быстро.</h1>
+          <p class="hero-text">Я 14 лет и уже создаю современные адаптивные сайты с HTML, CSS, JavaScript и Tailwind. Мне нравится делать интерфейсы, которые удобно использовать и легко поддерживать.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Посмотреть проекты</a>
+            <a href="#contact" class="btn btn-secondary">Связаться</a>
           </div>
-          <h1 class="text-5xl font-bold mb-3 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-            Амиров Акбар
-          </h1>
-          <p class="text-xl text-blue-300 font-semibold">Frontend Developer</p>
-        </div>
-
-        <div class="bg-gradient-to-r from-blue-900/30 to-purple-900/30 rounded-2xl p-6 mb-8 border border-blue-500/20">
-          <p class="text-gray-200 leading-relaxed">
-            <span class="text-blue-400 font-semibold">14 лет</span> и я уже создаю потрясающие веб-сайты! 
-            Изучаю современные технологии и превращаю идеи в реальность. 
-            Мечтаю стать лучшим разработчиком и создавать проекты, которыми будут восхищаться.
-          </p>
-        </div>
-
-        <div class="mb-8">
-          <h2 class="text-2xl font-bold mb-4 flex items-center">
-            <span class="text-yellow-400 mr-2">⚙️</span>Технологии
-          </h2>
-          <div class="grid grid-cols-2 gap-3">
-            <div class="skill-card">
-              <span class="text-lg">🏗️</span>
-              <span class="font-semibold">HTML</span>
+          <div class="hero-stats">
+            <div>
+              <strong>8+</strong>
+              <span>проекта</span>
             </div>
-            <div class="skill-card">
-              <span class="text-lg">🎨</span>
-              <span class="font-semibold">CSS / Tailwind</span>
+            <div>
+              <strong>100%</strong>
+              <span>отзывов</span>
             </div>
-            <div class="skill-card">
-              <span class="text-lg">⚡</span>
-              <span class="font-semibold">JavaScript</span>
-            </div>
-            <div class="skill-card">
-              <span class="text-lg">🐙</span>
-              <span class="font-semibold">GitHub</span>
+            <div>
+              <strong>Каждый день</strong>
+              <span>учусь новому</span>
             </div>
           </div>
         </div>
 
-  
-        <div class="mb-8">
-          <h2 class="text-2xl font-bold mb-4 flex items-center">
-            <span class="text-green-400 mr-2">📁</span>Проекты
-          </h2>
-          <a
-            href="https://github.com/Akbar-fullstack/my-first-project"
-            target="_blank"
-            class="project-link group block"
-          >
-            <div class="flex items-center justify-between">
-              <span class="text-lg font-semibold">Мой первый проект</span>
-              <span class="text-xl group-hover:translate-x-2 transition-transform">→</span>
+        <div class="hero-panel">
+          <div class="profile-card">
+            <div class="avatar">А</div>
+            <div class="profile-info">
+              <span class="badge">Frontend</span>
+              <h2>Я проектирую интерфейсы и превращаю идеи в рабочий сайт.</h2>
+              <p>Мой фокус — адаптивность, удобство и профессиональная подача. Я уже готов реализовать ваш первый онлайн-проект.</p>
             </div>
-            <p class="text-sm text-gray-400 mt-1">Мой стартовый проект на GitHub</p>
+            <div class="profile-highlights">
+              <div>
+                <span>⚡</span>
+                <p>Быстрая адаптивная верстка</p>
+              </div>
+              <div>
+                <span>🎨</span>
+                <p>Чистый дизайн и внимание к деталям</p>
+              </div>
+              <div>
+                <span>🚀</span>
+                <p>Современные технологии</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container section-card">
+        <div class="section-header">
+          <span>Обо мне</span>
+          <h2>Я создаю сайты, которые вызывают доверие.</h2>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p>Я работаю над проектами с четкой структурой, понятным кодом и современным дизайном. Мои сайты быстро загружаются на любых устройствах, и на них удобно работать.</p>
+            <ul class="about-list">
+              <li><i class="fas fa-check"></i> Адаптивная верстка для смартфонов, планшетов и десктопов</li>
+              <li><i class="fas fa-check"></i> Чистый и понятный код</li>
+              <li><i class="fas fa-check"></i> Быстрый старт проекта и честный результат</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <p class="about-card-title">Мой подход</p>
+            <p>Я комбинирую креативную подачу и практичную реализацию. Сначала продумываю, как сайт должен работать, потом делаю его красивым и удобным.</p>
+            <div class="about-metrics">
+              <div><strong>14</strong><span>лет</span></div>
+              <div><strong>3</strong><span>проекта на GitHub</span></div>
+              <div><strong>1</strong><span>новая идея каждый день</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container section-card">
+        <div class="section-header">
+          <span>Навыки</span>
+          <h2>Инструменты, с которыми я работаю</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-box">
+            <span class="skill-icon">🏗️</span>
+            <h3>HTML</h3>
+            <p>Структура страницы, семантика, доступность.</p>
+          </div>
+          <div class="skill-box">
+            <span class="skill-icon">🎨</span>
+            <h3>CSS / Tailwind</h3>
+            <p>Я делаю дизайн адаптивным и красивым на любых экранах.</p>
+          </div>
+          <div class="skill-box">
+            <span class="skill-icon">⚡</span>
+            <h3>JavaScript</h3>
+            <p>Добавляю интерактивность, анимации и простую логику.</p>
+          </div>
+          <div class="skill-box">
+            <span class="skill-icon">🐙</span>
+            <h3>GitHub</h3>
+            <p>Публикую проекты и показываю готовые решения.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="container section-card">
+        <div class="section-header">
+          <span>Проекты</span>
+          <h2>Небольшие работы, которые уже готовы</h2>
+        </div>
+        <div class="projects-grid">
+          <a href="https://github.com/Akbar-fullstack/my-first-project" target="_blank" class="project-card">
+            <div class="project-badge">01</div>
+            <h3>Мой первый проект</h3>
+            <p>Простая страница, где я показал базовые навыки верстки и оформления.</p>
+          </a>
+          <a href="https://github.com/Akbar-fullstack/Projekt-2-Figma" target="_blank" class="project-card">
+            <div class="project-badge">02</div>
+            <h3>Второй проект</h3>
+            <p>Дизайн-ориентированное решение с более продуманной композицией.</p>
+          </a>
+          <a href="https://github.com/Akbar-fullstack/Projekt-3-Figma" target="_blank" class="project-card">
+            <div class="project-badge">03</div>
+            <h3>Третий проект</h3>
+            <p>Новый опыт в верстке и использовании цветов для удобства пользователя.</p>
+          </a>
+          <a href="https://github.com/Akbar-fullstack/Projekt-4-Figma" target="_blank" class="project-card">
+            <div class="project-badge">04</div>
+            <h3>Четвертый проект</h3>
+            <p>Работа с макетом и адаптивными элементами для разных экранов.</p>
           </a>
         </div>
+      </div>
+    </section>
 
-      
-        <div class="mb-8">
-          <h2 class="text-2xl font-bold mb-4 flex items-center">
-            <span class="text-red-400 mr-2">📞</span>Контакты
-          </h2>
-          <div class="flex flex-col gap-3">
-            <a href="https://t.me/atay_w" target="_blank" class="contact-link">
-              <i class="fab fa-telegram text-blue-400"></i>
-              <span>@atay_w</span>
-            </a>
-            <a href="https://github.com/Akbar-fullstack" target="_blank" class="contact-link">
-              <i class="fab fa-github text-gray-300"></i>
-              <span>Akbar-fullstack</span>
-            </a>
+    <section id="contact" class="section contact-section">
+      <div class="container section-card contact-card">
+        <div class="contact-info">
+          <div class="section-header">
+            <span>Контакты</span>
+            <h2>Готов к новым идеям и заказам</h2>
+          </div>
+          <p>Напиши мне в Telegram или посмотри мои проекты на GitHub. Я отвечу быстро и помогу создать сайт для твоей цели.</p>
+          <div class="contact-links">
+            <a href="https://t.me/atay_w" target="_blank" class="contact-link"><i class="fab fa-telegram"></i>@atay_w</a>
+            <a href="https://github.com/Akbar-fullstack" target="_blank" class="contact-link"><i class="fab fa-github"></i>Akbar-fullstack</a>
           </div>
         </div>
-
-    
-
+        <div class="contact-card-visual">
+          <div class="contact-card-box">
+            <span></span>
+            <p>Давай сделаем твой первый сайт вместе!</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
 
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Акбар. Frontend Developer.</p>
+    </div>
+  </footer>
 </body>
 </html>
