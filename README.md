@@ -9,8 +9,6 @@
 🔧 Технологии:
 - HTML
 - Tailwind CSS
-- JavaScript (базовый уровень)
+- JavaScript
 
 📌 Проект создан для практики и развития навыков.
-
-https://akbar-fullstack.github.io/My-portfolio/
